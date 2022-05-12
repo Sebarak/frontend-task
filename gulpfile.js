@@ -1,13 +1,13 @@
 const { src, dest, watch, series, parallel } = require('gulp');
 
 const sourcemaps = require('gulp-sourcemaps');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'))
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-var replace = require('gulp-replace');
+let replace = require('gulp-replace');
 
 // File paths
 const files = { 
@@ -35,7 +35,8 @@ function jsTask(){
     );
 }
 
-var cbString = new Date().getTime();
+let cbString = new Date().getTime();
+
 function cacheBustTask(){
     return src(['index.html'])
         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
