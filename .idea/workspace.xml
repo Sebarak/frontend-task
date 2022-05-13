@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0bc52258-cff6-4ab6-86de-a73110ef7c28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/global/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/global/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652394387346</updated>
-      <workItem from="1652394389479" duration="18800000" />
+      <workItem from="1652394389479" duration="21031000" />
     </task>
     <servers />
   </component>

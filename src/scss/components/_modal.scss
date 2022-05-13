@@ -8,6 +8,7 @@
   font-family: $font-family;
   color: $font-color;
   background-color: $bg-color;
+  z-index: 2;
 
   &_title{
     font-weight: 700;
