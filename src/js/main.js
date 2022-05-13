@@ -10,8 +10,10 @@ const showModal = (b,m,o) =>{
     b.addEventListener('click', event => {
         event.preventDefault();
 
-        m.classList.add('show');
-        o.classList.add('show');
+        if (m !== null) m.classList.add('show');
+        if (o !== null) o.classList.add('show');
+        window.scrollTo(0,0);
+        document.body.style.overflow = 'hidden';
         counter++;
         contentCounter.textContent = `${counter} times`;
     })
@@ -21,8 +23,9 @@ const closeModal = (b,m,o) => {
     b.addEventListener('click', event => {
         event.preventDefault();
 
-        m.classList.remove('show');
-        o.classList.remove('show');
+        if (m !== null) m.classList.remove('show');
+        if (o !== null) o.classList.remove('show');
+        document.body.style.overflow = 'auto';
     })
 }
 
