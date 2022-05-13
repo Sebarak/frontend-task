@@ -1,0 +1,9 @@
+body{
+  background-color: $bg-color;
+
+  .container{
+    max-width: 1440px;
+    border: 2px solid red;
+    display: flex;
+  }
+}
