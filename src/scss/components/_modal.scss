@@ -86,4 +86,23 @@
       transform: scale(1.2);
     }
   }
+
+  &_reset{
+    position: absolute;
+    bottom: 25px;
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    background-color: #ddd;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    transition: transform .2s ease-in;
+    display: none;
+
+    &:hover{
+      cursor: pointer;
+      transform: translateX(-50%) scale(1.1);
+    }
+  }
 }
