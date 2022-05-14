@@ -155,6 +155,7 @@ const clearCounter = () => {
 const showModal = (b,m,o) =>{
     b.addEventListener('click', event => {
         event.preventDefault();
+        b.disabled = true;
 
         if (m !== null) m.classList.add('show');
         if (o !== null) o.classList.add('show');
@@ -173,6 +174,7 @@ const showModal = (b,m,o) =>{
 const closeModal = (b,m,o) => {
     b.addEventListener('click', event => {
         event.preventDefault();
+        button.disabled = false;
 
         if (b === counterReset) {
             localStorage.removeItem('counter');
