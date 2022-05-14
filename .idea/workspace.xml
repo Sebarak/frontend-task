@@ -8,7 +8,9 @@
       <change beforePath="$PROJECT_DIR$/dist/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sebek\Desktop\Projects\Gravity_Global\src\js" />
       <recent name="C:\Users\Sebek\Desktop\Projects\Gravity_Global\src\scss\components" />
       <recent name="C:\Users\Sebek\Desktop\Projects\Gravity_Global\src\scss\global" />
     </key>
@@ -65,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652394387346</updated>
-      <workItem from="1652394389479" duration="32639000" />
+      <workItem from="1652394389479" duration="48366000" />
     </task>
     <servers />
   </component>
